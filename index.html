@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Iconic Movies of the 90s</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/flexboxgrid.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+</head>
+<body>
+	<section id="showcase">
+		<div class="container">
+		<!-- This needs to be in the middle both horizontally and vertically, "middle" is responsible for vertical -->
+			<div class="row center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg">
+				<div class="col-xs-10 col-sm-10 col-md-10 col-lg-7 showcase-content">
+					<h1>Iconic Movies of the <span class="primary-text">'90s</span></h1>
+				</div>
+			</div>
+		</div>		
+	</section>
+
+	<!-- FEATURES -->
+	<section id="features">
+		<div class="container">
+			<div class="row center-xs center-sm center-md center-lg">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<form id="movie-form">
+					<label for="movie-input">Add a New Movie</label><br>
+					<input type="text" id="movie-input">
+					<!-- Button triggers new movie to be added -->
+					<input id="add-movie" type="submit" value="Subsmit">
+				</form>
+				<!-- DIV FOR BUTTONS --> 				
+				<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="buttons-view"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!-- DISPLAYED GIFS -->
+	<section id="displayed-gif">
+		<div class="div-100">
+			<div class="container">
+				<!-- GIF ROW 1 --> 
+				<div class="row">				
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 gifs-appear-here displayed-gif-content"></div>
+					<!-- <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 gifs-appear-here"></div>
+					<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 gifs-appear-here"></div> -->
+				</div> 
+			</div>
+		</div>
+	</section>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>
